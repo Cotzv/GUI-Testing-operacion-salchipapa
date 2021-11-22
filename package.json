@@ -1,0 +1,30 @@
+{
+  "name": "gui-testing-operacion-salchipapa",
+  "version": "1.0.0",
+  "description": "GUI Testing repository to automate Trello features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint  \"**/*.{ts,tsx}\"",
+    "lint-fix": "eslint  \"**/*.{ts,tsx}\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrRoaming/GUI-Testing-operacion-salchipapa.git"
+  },
+  "keywords": [],
+  "author": "Operacion Salchipapa Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrRoaming/GUI-Testing-operacion-salchipapa/issues"
+  },
+  "homepage": "https://github.com/MrRoaming/GUI-Testing-operacion-salchipapa#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "typescript": "^4.5.2"
+  }
+}
