@@ -1,12 +1,12 @@
-import { Builder, By, until } from "selenium-webdriver";
+import { Builder } from "selenium-webdriver";
 import "chromedriver";
 import homepage from "./main/ui/homePage";
 import loginPage from "./main/ui/loginPages";
 
 (async () => {
-    let driver = await new Builder().forBrowser("chrome").build();
-    let user = "serqio.kay@gmail.com";
-    let password = "123456789";
+    const driver = await new Builder().forBrowser("chrome").build();
+    const user = "";
+    const password = "";
 
     try {
         await driver.get("https://www.trello.com/");

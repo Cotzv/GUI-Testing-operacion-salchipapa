@@ -1,15 +1,25 @@
 {
     "name": "gui_test",
     "version": "1.0.0",
-    "description": "",
+    "description": "GUI Testing repository to automate Trello features.",
     "main": "index.js",
     "scripts": {
         "test": "cucumber-js -p default",
-        "start": "ts-node index.ts"
+        "start": "ts-node index.ts",
+        "lint": "eslint  \"**/*.{ts,tsx}\"",
+        "lint:fix": "eslint  \"**/*.{ts,tsx}\" --fix"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MrRoaming/GUI-Testing-operacion-salchipapa.git"
     },
     "keywords": [],
-    "author": "",
+    "author": "Operacion Salchipapa Team",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/MrRoaming/GUI-Testing-operacion-salchipapa/issues"
+    },
+    "homepage": "https://github.com/MrRoaming/GUI-Testing-operacion-salchipapa#readme",
     "dependencies": {
         "@cucumber/pretty-formatter": "^1.0.0-alpha.1",
         "chromedriver": "^95.0.0",
@@ -21,7 +31,12 @@
         "typescript": "^4.4.4"
     },
     "devDependencies": {
-        "@cucumber/cucumber": "^7.3.1",
-        "@types/selenium-webdriver": "^4.0.16"
+      "@typescript-eslint/eslint-plugin": "^5.4.0",
+      "@typescript-eslint/parser": "^5.4.0",
+      "eslint": "^8.3.0",
+      "eslint-config-airbnb-base": "^15.0.0",
+      "eslint-plugin-import": "^2.25.3",
+      "@cucumber/cucumber": "^7.3.1",
+      "@types/selenium-webdriver": "^4.0.16"
     }
 }
