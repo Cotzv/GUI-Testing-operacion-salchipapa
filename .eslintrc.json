@@ -27,6 +27,10 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "import/extensions": 0
+        "import/extensions": 0,
+        "indent": [
+            "error",
+            4
+        ]
     }
 }
