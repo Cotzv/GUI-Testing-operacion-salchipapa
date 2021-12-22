@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "cucumber-js --tags '@login' --format json:reports/report.json"
+        "test": "cucumber-js --tags '@login' --format json:reports/report.json",
+        "test-members": "cucumber-js --tags '@members' --format json:reports/report.json"
     },
     "author": "",
     "license": "ISC",
