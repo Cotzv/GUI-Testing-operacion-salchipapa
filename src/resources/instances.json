@@ -1,0 +1,13 @@
+{
+    "invalidAuth": {
+        "baseURL": "https://api.trello.com",
+        "user": { "key": "invalid", "token": "invalid" }
+    },
+    "validAuth": {
+        "baseURL": "https://api.trello.com",
+        "headers": {
+            "Accept": "*/*",
+            "Authorization": "OAuth oauth_consumer_key=\"0049ceeebd6abaa5f8827e8e01235d14\", oauth_token=\"36ed5fde439592ffce289875e57abfb5308433cd84ed2c04a2067c5493b50ac4\""
+        }
+    }
+}
