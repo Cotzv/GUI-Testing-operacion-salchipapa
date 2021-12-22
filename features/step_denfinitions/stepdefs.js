@@ -1,5 +1,4 @@
-const assert = require('assert');
-const { Given, When, Then } = require('cucumber');
+const { Given, When, Then } = require('@cucumber/cucumber');
 const loginpage = require('../../pages/LoginPage');
 
 const URL = 'https://trello.com/login';

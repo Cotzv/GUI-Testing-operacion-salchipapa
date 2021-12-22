@@ -4,19 +4,19 @@ const testControllerHolder = {
     captureResolver: null,
     getResolver: null,
 
-    capture: function(t) {
+    capture: function (t) {
         testControllerHolder.testController = t;
 
         if (testControllerHolder.getResolver) {
             testControllerHolder.getResolver(t);
         }
 
-        return new Promise(function(resolve) {
+        return new Promise(function (resolve) {
             testControllerHolder.captureResolver = resolve;
         });
     },
 
-    free: function() {
+    free: function () {
         testControllerHolder.testController = null;
 
         if (testControllerHolder.captureResolver) {
@@ -24,12 +24,12 @@ const testControllerHolder = {
         }
     },
 
-    get: function() {
-        return new Promise(function(resolve) {
+    get: function () {
+        return new Promise(function (resolve) {
             if (testControllerHolder.testController) {
                 resolve(testControllerHolder.testController);
             } else {
-               testControllerHolder.getResolver = resolve;
+                testControllerHolder.getResolver = resolve;
             }
         });
     },

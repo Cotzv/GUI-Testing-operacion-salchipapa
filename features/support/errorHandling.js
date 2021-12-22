@@ -1,5 +1,4 @@
 const testcafe = require('testcafe');
-const hooks = require('../support/hooks');
 
 exports.addErrorToController = function () {
     testController.executionChain

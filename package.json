@@ -9,12 +9,10 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@ffmpeg-installer/ffmpeg": "^1.0.20",
-        "base64-img": "^1.0.4",
         "cucumber-html-reporter": "^5.2.0",
         "testcafe": "^1.8.8"
     },
     "devDependencies": {
-        "cucumber": "^6.0.5"
+        "@cucumber/cucumber": "^8.0.0-rc.1"
     }
 }
