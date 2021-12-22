@@ -27,5 +27,9 @@ exports.MembersPage = {
 
   AddButton: () => {
     return select("[class='nch-button nch-button--primary full']")
+  },
+
+  MemberList: () => {
+    return select("[data-test-id='org-members-list']");
   }
 }

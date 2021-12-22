@@ -2,9 +2,9 @@ Feature: Members
 
     Background: A user can log in
         Given I open the login page
-        When I enter the email crist.v095@gmail.com
+        When I enter the email testappsa2@gmail.com
         And I click the atlassian login button
-        And I enter the password 123456789
+        And I enter the password test12345
         And I click on the login button
 
     @members
